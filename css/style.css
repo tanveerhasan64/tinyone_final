@@ -160,6 +160,7 @@ header{
 }
 .l_contact{
 	font-size: 50px;
+	word-spacing: 10px;
 }
 .l_contact a{
 	color: #fcdb00 !important;
@@ -174,6 +175,9 @@ footer{
 .f_1{
 	color: white !important;
 }
+address{
+    margin-bottom: 0px;
+}
 .f_1 p{
 	margin: 0;
 }
@@ -181,8 +185,8 @@ footer{
 	text-decoration: none;
 	color: white !important;
 }
-address{
-    margin-bottom: 0px;
+.f_1 p:hover a{
+  text-decoration: underline;
 }
 
 /*footer end*/
